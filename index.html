@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Danny Huang">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="bookmark" href="images/favicon.ico" />
+    <title>Danny's Website</title>
+</head>
+
+<body>
+    <!--  -->
+    <div id="loading" class="loading position-fixed d-flex justify-content-center align-items-center">
+        <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!--  -->
+    <header class="navbar position-fixed p-0 w-100">
+        <nav id="main-nav" class="main-nav w-100">
+            <div class="container">
+                <div id="burger" class="burger position-absolute d-block d-lg-none">
+                    <!-- <div id="burger-line-1" class="burger-line"></div>
+                    <div id="burger-line-2" class="burger-line"></div>
+                    <div id="burger-line-3" class="burger-line"></div> -->
+                    <div id="burger-line" class="burger-line"></div>
+                </div>
+                <ul id="navbar-nav" class="navbar-nav row d-lg-flex flex-column flex-lg-row justify-content-between">
+                    <li class="nav-item col-3"><a id="home-link" href="#home"
+                            class="scroll-spy nav-link d-block py-3 mx-auto text-center">HOME</a>
+                    </li>
+                    <li class="nav-item col-3"><a id="profile-link" href="#profile"
+                            class="nav-link d-block py-3 mx-auto text-center">PROFILE</a>
+                    </li>
+                    <li class="nav-item col-3"><a id="skill-link" href="#skill"
+                            class="nav-link d-block py-3 mx-auto text-center">SKILL</a>
+                    </li>
+                    <li class="nav-item col-3"><a id="portfolio-link" href="#portfolio"
+                            class="nav-link d-block py-3 mx-auto text-center">PORTFOLIO</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--  -->
+    <main>
+        <!--  -->
+        <section id="home" class="home">
+            <div class="home-mask">
+                <div
+                    class="home-content position-relative d-flex flex-column justify-content-center align-items-center">
+                    <div class="mb-5 text-center">
+                        <p class="home-content-word-lg">I'm <span>Danny Huang</span></p>
+                        <span class="home-content-word-sm px-3"></span>
+                    </div>
+                    <a href="#profile"
+                        class="scroll-down position-absolute d-flex flex-column text-center text-decoration-none">
+                        <p>Scroll Down</p>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section id="profile" class="profile">
+            <div class="profile-content container d-flex flex-column align-items-center p-5">
+                <h2 class="position-relative mb-5 text-center">PROFILE</h2>
+                <h3 class="pt-5 mb-0 text-center">Basics</h3>
+                <ul class="list-unstyled px-0 py-5 p-sm-5 mx-auto mb-5 text-sm-center">
+                    <li>
+                        <p class="name"><i class="fas fa-user"></i> Danny Huang (黃品睿)</p>
+                    </li>
+                    <li>
+                        <p class="date-of-birth"><i class="fas fa-birthday-cake"></i> 06/21/1996</p>
+                    </li>
+                    <li>
+                        <p class="phone"><i class="fas fa-phone-alt"></i> 0976-904-299</p>
+                    </li>
+                    <li>
+                        <p class="email"><i class="fas fa-envelope"></i> fee8ack21@gmail.com</p>
+                    </li>
+                    <li>
+                        <p class="city"><i class="fas fa-building"></i> Taoyuan, Taiwan</p>
+                    </li>
+                    <li>
+                        <p class="education"><i class="fas fa-graduation-cap"></i> Chung Yuan Christian
+                            University</p>
+                    </li>
+                    <li>
+                        <p class="certificate"><i class="fas fa-scroll"></i> Institute For
+                            Information Industry Front-End Courses Completion</p>
+                    </li>
+                    <li>
+                        <p><i class="fas fa-scroll"></i> TOEIC Golden Certificate</p>
+                    </li>
+                </ul>
+                <h3 class="text-center mb-5">Experiences</h3>
+                <div class="timeline-section text-center mb-5">
+                    <div class="row timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2012/08 Teen Power Music Festival - Best Guitarist Award</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row flex-row-reverse timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2015/04 Ministry of Culture Music Training Program</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2015/07 Luo Dong Fringe Festival</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row flex-row-reverse timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2016/04 H.O.T - Champion (featured)</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2016/06 Spotlight Music Festival</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row flex-row-reverse timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2016/06 Tamsui Fishman Stage</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2016/07 Bureau of Culture Affairs Kaohsiung City Government Music Training Program</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row flex-row-reverse timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2016/09 Tomorrow Music Festival</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2018/06 Graduated from Chung Yuan Christian University</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row flex-row-reverse timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2019/04 Finished Military Service</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2019/09 Studying Music Industry at China University of Technology</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row flex-row-reverse timeline-pointer mb-5">
+                        <div class="col-12 col-sm-6 px-5">
+                            <p>2020/09 Taking Front-End Courses at Institute For Information Industry</p>
+                        </div>
+                        <div class="col-0 col-sm-6 px-5"></div>
+                    </div>
+                    <div class="row timeline-pointer">
+                        <div class="col-6">
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
+                </div>
+                <h3 class="text-center mb-5 m-sm-5">PHOTOS</h3>
+                <div class="lightbox-wrap row d-flex justify-content-between px-0 px-sm-5 w-100 flex-wrap">
+                    <figure class="col-6 col-md-4 col-lg-2 text-center"><a href="images/fish.jpg" data-lightbox="photos"
+                            data-title="Tamsui Fishman Stage"><img src="images/fish.jpg" alt="" class="rounded"></a>
+                        <figcaption>Tamsui Fishman Stage</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 col-lg-2 text-center"><a href="images/pipe.jpg" data-lightbox="photos"
+                            data-title="Pipe Live House"><img src="images/pipe.jpg" alt="" class="rounded"></a>
+                        <figcaption>Pipe Live House</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 col-lg-2 text-center"><a href="images/luo_dong.jpg"
+                            data-lightbox="photos" data-title="Fringe Festival"><img src="images/luo_dong.jpg" alt=""
+                                class="rounded"></a>
+                        <figcaption>Fringe Festival</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 col-lg-2 text-center"><a href="images/legacy2.jpg"
+                            data-lightbox="photos" data-title="Legacy Live House"><img src="images/legacy2.jpg" alt=""
+                                class="rounded">
+                        </a>
+                        <figcaption>Legacy Live House</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 col-lg-2 text-center"><a href="images/hot.jpg" data-lightbox="photos"
+                            data-title="H.O.T"><img src="images/hot.jpg" alt="" class="rounded"></a>
+                        <figcaption>H.O.T</figcaption>
+                    </figure>
+                    <figure class="col-6 col-md-4 col-lg-2 text-center"><a href="images/fish2.jpg"
+                            data-lightbox="photos" data-title="Tamsui Fishman Stage"><img src="images/fish2.jpg" alt=""
+                                class="rounded"></a>
+                        <figcaption>Tamsui Fishman Stage</figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section id="skill" class="skill">
+            <div class="skill-mask">
+                <div class="skill-content p-5 container ">
+                    <h2 class="mb-5 text-center position-relative">SKILL</h2>
+                    <div class="px-0 py-5 px-md-5 w-100 d-flex justify-content-between flex-wrap">
+                        <div class="col-12 col-sm-5 skill-bar-wrap">
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">HTML5, Semantic
+                                    Elements, Pug</div>
+                                <p>HTML</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="html py-1 text-center" data-percent="90%">90%</div>
+                                </div>
+                            </div>
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">CSS3, RWD, SCSS,
+                                    Bootstrap</div>
+                                <p>CSS</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="css py-1 text-center" data-percent="85%">85%</div>
+                                </div>
+                            </div>
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">ES6, jQuery, VanillaJS,
+                                    ReactJS</div>
+                                <p>JavaScript</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="javascript py-1 text-center" data-percent="80%">80%</div>
+                                </div>
+                            </div>
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">Express Module, EJS
+                                </div>
+                                <p>Node.js</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="node py-1 text-center" data-percent="65%">65%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-wrap col-12 col-sm-5">
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">Basic Syntax</div>
+                                <p>PHP</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="php py-1 text-center" data-percent="60%">60%</div>
+                                </div>
+                            </div>
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">CRUD Operations</div>
+                                <p>MySQL</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="mysql py-1 text-center" data-percent="70%">70%</div>
+                                </div>
+                            </div>
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">Common Commands, Git
+                                    Flow</div>
+                                <p>Git</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="git py-1 text-center" data-percent="80%">80%</div>
+                                </div>
+                            </div>
+                            <div class="skill-tooltip position-relative">
+                                <div class="tooltip-content position-absolute px-3 py-2 rounded">Compiler, Compressor,
+                                    Prefixer</div>
+                                <p>Gulp</p>
+                                <div class="skill-bar mb-4">
+                                    <div class="gulp py-1 text-center" data-percent="75%">75%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section class="skill">
+        <!--  -->
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio-content p-5 container">
+                <h2 class="mb-5 text-center position-relative">PORTFOLIO</h2>
+                <div class="portfolio-choose d-flex justify-content-center pt-5">
+                    <a id="frontend-list" href="#" class="frontend-list actived mx-3 d-inline-block">Front-End</a>
+                    <a id="backend-list" href="#" class="backend-list mx-3 d-inline-block">Back-End</a>
+                </div>
+                <div class="img-frontend-wrap show py-5 px-md-5 flex-wrap justify-content-center justify-content-sm-between">
+                    <a class="portfolio-travel-information mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/travel_information/" target="_blank"><img src="images/travel_information.png"
+                            alt="" title="1"></a>
+                    <a class="portfolio-bmi mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/bmi/" target="_blank"><img src="images/bmi.png"
+                            alt="" title="2"></a>
+                    <a class="portfolio-card-flip-game mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/card_flip_game/" target="_blank"><img src="images/card_flip_game.png"
+                            alt="" title="3"></a>
+                    <a class="portfolio-calculator mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/calculator/" target="_blank"><img src="images/calculator.png"
+                            alt="" title="4"></a>
+                    <a class="portfolio-to-do-list mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/to_do_list/" target="_blank"><img src="images/to_do_list.png"
+                            alt="" title="5"></a>
+                    <a class="portfolio-shopping-cart mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/shopping_cart/" target="_blank"><img src="images/shopping_cart.png"
+                            alt="" title="6"></a>
+                    <a class="portfolio-hex-restaurant mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/hex_restaurant/" target="_blank"><img src="images/hex_restaurant.png"
+                            alt="" title="7"></a>
+                    <a class="portfolio-hex-school mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/hex_school/" target="_blank"><img src="images/hex_school.png"
+                            alt="" title="8"></a>
+                    <a class="portfolio-hair-map mx-1 mb-5 position-relative" href="https://fee8ack21.github.io/hair_map/" target="_blank"><img src="images/hair_map.png"
+                            alt="" title="9"></a>
+                </div>
+                <div class="img-backend-wrap py-5 flex-wrap justify-content-center justify-content-sm-between">
+                    <a class="portfolio-dashboard-product-list mx-1 mb-5 position-relative" href="images/說明.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 說明"><img src="images/dashboard_product_list.png"
+                            alt="" title="1"></a>
+                    <a class="d-none" href="images/預覽一.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 預覽一"></a>
+                    <a class="d-none" href="images/預覽二.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 預覽二"></a>
+                    <a class="d-none" href="images/列表資訊.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 列表資訊"></a>
+                    <a class="d-none" href="images/顯示筆數.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 顯示筆數"></a>
+                    <a class="d-none" href="images/搜尋選擇.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 搜尋選擇"></a>
+                    <a class="d-none" href="images/商品新增.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 商品新增"></a>
+                    <a class="d-none" href="images/商品修改.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 商品修改"></a>
+                    <a class="d-none" href="images/商品刪除.png" data-lightbox="dashboard-product-list" data-title="後台會員列表 - 商品刪除"></a>
+                </div>
+                
+                <div id="pages-wrap" class="pages-wrap text-center">
+                </div>
+            </div>
+        </section>
+        <!--  -->
+    </main>
+    <!--  -->
+    <footer>
+        <div class="footer-mask py-5 ">
+            <div class="footer-content container ">
+                <div class="row position-relative justify-content-center">
+                    <div class="px-0 px-sm-5 col-12 text-center text-md-end col-md-5">
+                        <p><a href="https://github.com/fee8ack21/personal_website" target="_blank" class="footer-link text-decoration-none">GitHub</a></p>
+                        <p><a href="resume.pdf" target="_blank" class="footer-link text-decoration-none">PDF</a></p>
+                    </div>
+                    <div class="px-0 px-sm-5 col-12 text-center text-md-start col-md-7">
+                        <p>Phone: 0976-904-299</p>
+                        <p>Email: fee8ack21@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+    <script src="js/lightbox.min.js"></script>
+</body>
+
+</html>
