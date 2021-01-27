@@ -4,14 +4,23 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+html{
+    height: 100%;
+}
 
 body{
     background-image: url(../images/startup-593327.jpg);
     background-size: cover;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+
+@media screen and (max-width:576px){
+    body{
+        background-attachment: scroll;
+    }
 }
 
 .loading{
