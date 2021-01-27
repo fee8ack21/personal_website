@@ -8,18 +8,14 @@ html{
     height: 100%;
 }
 
-body{
+.background-fix-box{
+    position: fixed;
     background-image: url(../images/startup-593327.jpg);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    min-height: 100vh;
-}
-
-@media screen and (max-width:576px){
-    body{
-        background-attachment: scroll;
-    }
+    height: 100%;
+    width:100%;
+    z-index:-666
 }
 
 .loading{
