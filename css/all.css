@@ -8,7 +8,7 @@
 body{
     background-image: url(../images/startup-593327.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
