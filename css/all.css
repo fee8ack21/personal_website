@@ -4,18 +4,18 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
-html{
-    height: 100%;
-}
-
 .background-fix-box{
     position: fixed;
     background-image: url(../images/startup-593327.jpg);
     background-size: cover;
     background-position: center;
-    height: 100%;
-    width:100%;
-    z-index:-666
+    /* height: 100%; */
+    /* width:100%; */
+    z-index:-666;
+    top:0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
 }
 
 .loading{
