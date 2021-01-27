@@ -1,7 +1,6 @@
 $(document).ready(function () {
     $(window).on("load", function (e) {
         // remove loading effect
-        setTimeout(function () {
             $('#loading').css({ 'opacity': 0, 'z-index': '-666' })
             setTimeout(function () {
                 $('#loading').remove()
@@ -221,6 +220,5 @@ $(document).ready(function () {
                     });
                 }
             })
-        }, 1000);
     })
 })
