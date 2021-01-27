@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $(window).on("load", function (e) {
         // remove loading effect
-            $('#loading').css({ 'opacity': 0, 'z-index': '-666' })
-            setTimeout(function () {
-                $('#loading').remove()
-            }, 1000)
+//             $('#loading').css({ 'opacity': 0, 'z-index': '-666' })
+//             setTimeout(function () {
+//                 $('#loading').remove()
+//             }, 1000)
             // navbar effect
             let topDistance = $('html ,body').scrollTop()
             if (topDistance > 100) {
@@ -42,7 +42,8 @@ $(document).ready(function () {
             // type effect
             var i = 0;
             var txt = '';
-            setTimeout(typeEffect, 500);
+//             setTimeout(typeEffect, 500);
+            typeEffect();
             function typeEffect() {
                 let contentSm = 'A Front-End Engineer / Guitarist';
                 if (i < contentSm.length) {
