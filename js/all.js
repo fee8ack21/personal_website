@@ -33,8 +33,8 @@ $(document).ready(function () {
                 'resizeDuration': 200,
                 'wrapAround': true,
                 'fadeDuration': 200,
-                'maxWidth': 540,
-                'positionFromTop': 180
+                'maxWidth': 960,
+                'positionFromTop': 30
             })
 
             // banner word fade in effect
@@ -156,7 +156,7 @@ $(document).ready(function () {
 
             // 
             function eachImg() {
-                $('.img-backend-wrap a').each(function (i, v) {
+                $('.img-backend-wrap .show-content').each(function (i, v) {
                     if (i < itemsPerPage * currentPage && i > itemsPerPage * currentPage - (itemsPerPage + 1)) {
                         $(this).show()
                     } else {

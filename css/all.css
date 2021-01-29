@@ -702,6 +702,9 @@ font-size: 12px;
 .portfolio-hair-map::before{
     content: 'Hair Map';
 }
+.portfolio-iii-final-project::before{
+    content: 'III Final Project';
+}
 .portfolio-dashboard-product-list::before{
     content: 'Dashboard Product List';
 }
