@@ -714,6 +714,9 @@ font-size: 12px;
 .portforlio-php-dashboard::before {
   content: 'PHP Dashboard';
 }
+.portforlio-react-shopping-cart::before {
+    content: 'React Shopping Cart';
+  }
 /*  */
 .portfolio .img-backend-wrap img , .portfolio .img-frontend-wrap img{
     width: 100%;
